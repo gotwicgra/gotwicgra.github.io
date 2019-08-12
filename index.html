@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GoT Location Calc</title>
+    <link rel="stylesheet" type="text/css" href="assets/main.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css" media="all" />
+</head>
+<body>
+    <div class="container mt-3">
+        <h3 class="mb-3">GoT Winter is Coming Distance Calculation </h3>
+        <div class="row mb-2">
+            <div class="col-md-3 col-xs-6">Origin X</div>
+            <div class="col-md-3 col-xs-6"><input type="number" class="entry form-control" id="origin_x"></div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-md-3 col-xs-6">Origin Y</div>
+            <div class="col-md-3 col-xs-6"><input type="number" class="entry form-control" id="origin_y"></div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-md-3 col-xs-6">Destination X</div>
+            <div class="col-md-3 col-xs-6"><input type="number" class="entry form-control" id="destination_x"></div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-md-3 col-xs-6">Destination Y</div>
+            <div class="col-md-3 col-xs-6"><input type="number" class="entry form-control" id="destination_y"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <button class="btn btn-primary float-right" id="calculate">Calculate</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Distance : <span id="result"></span></h3>
+            </div>
+        </div>
+    </div>
+    <script src="assets/jquery.min.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
+    <script src="assets/main.js"></script>
+</body>
+</html>

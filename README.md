@@ -1,2 +1,1 @@
-# loc_calc
-GoT Calc
+Simple Game of Thrones Location Calculator

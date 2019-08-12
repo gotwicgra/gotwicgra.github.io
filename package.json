@@ -1,0 +1,21 @@
+{
+  "name": "loc_calc",
+  "version": "1.0.0",
+  "description": "Simple Game of Thrones Location Calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buddison/loc_calc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buddison/loc_calc/issues"
+  },
+  "homepage": "https://github.com/buddison/loc_calc#readme",
+  "dependencies": {
+  }
+}
