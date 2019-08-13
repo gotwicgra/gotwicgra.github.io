@@ -31,6 +31,15 @@
             <div class="col-md-3 col-xs-6">March Bonus</div>
             <div class="col-md-3 col-xs-6"><input type="number" class="entry form-control" id="march_bonus" "=""></div>
         </div>
+        <div class="row mb-2">
+            <div class="col-md-3 col-xs-6">Troop Type</div>
+            <div class="col-md-3 col-xs-6"><select class="entry form-control" id="troop_rate">
+              <option value="2">Infantry</option>
+              <option value="4">Cavalry</option>
+              <option value="2">Spearmen</option>
+              <option value="3">Bowmen</option>
+            </select></div>
+        </div>
         <div class="row">
             <div class="col-md-6">
                 <button class="btn btn-primary float-right" id="calculate">Calculate</button>
@@ -45,6 +54,7 @@
               </div>
         </div>
         <p class="text-danger small">Disclaimer : It's not 100% accurate, but maybe 99%</p>
+        <p class="text-primary small">Credits : yitamin</p>
     </div>
     <script src="assets/jquery.min.js"></script>
     <script src="assets/bootstrap.min.js"></script>
