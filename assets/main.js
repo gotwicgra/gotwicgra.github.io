@@ -28,8 +28,6 @@ $(function(){
                             }, {});
         march_bonus = parseFloat($("#march_bonus").val());
         troop_rate = parseFloat($("#troop_rate").val()) || 2;
-        console.log(origin);
-        console.log(destination);
 
         let circle1 = Math.sqrt(Math.pow(origin.X-destination.X,2) + Math.pow(origin.Y*2-destination.Y*2,2));
         let circle2 = Math.sqrt(Math.pow(origin.X-destination.X,2) + Math.pow(origin.Y*2-(origin.X&1)-destination.Y*2+(origin.Y&1),2));
