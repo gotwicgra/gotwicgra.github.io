@@ -27,6 +27,8 @@ $(function(){
                                 }
                             }, {});
         march_bonus = parseFloat($("#march_bonus").val());
+        march_bonus = isNaN(march_bonus)?0:march_bonus;
+        
         troop_rate = parseFloat($("#troop_rate").val()) || 2;
 
         let circle1 = Math.sqrt(Math.pow(origin.X-destination.X,2) + Math.pow(origin.Y*2-destination.Y*2,2));
